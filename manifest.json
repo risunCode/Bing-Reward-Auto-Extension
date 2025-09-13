@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Bing Automate: Auto Reward Point",
+  "description": "Generate and search titles and open Bing searches in new tabs with a specified SearchID (form parameter).",
+  "version": "0.1.0",
+  "action": {
+    "default_title": "Bing Automate",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "32": "assets/32.png",
+    "48": "assets/48.png",
+    "64": "assets/64.png",
+    "128": "assets/128.png"
+  },
+  "background": {
+    "service_worker": "src/background/service_worker.js",
+    "type": "module"
+  },
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "*://*.bing.com/*",
+    "*://duckduckgo.com/*"
+  ]
+}

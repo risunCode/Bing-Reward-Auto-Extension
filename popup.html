@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bing Automate</title>
+    <link rel="stylesheet" href="./src/popup/popup.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1 class="title">Bing Automate</h1>
+      </header>
+      <section>
+        <form id="generateForm">
+          <label>
+            <span>SearchID (form)</span>
+            <input id="searchId" name="searchId" type="text" placeholder="e.g., TSASDS" required />
+          </label>
+          <div class="grid-row">
+            <label>
+              <span>Search Count</span>
+              <input id="count" name="count" type="number" min="1" max="200" value="30" required />
+            </label>
+            <label>
+              <span>Delay Search (Seconds)</span>
+              <input id="delaySec" name="delaySec" type="number" min="0" max="60" step="0.1" value="6" />
+            </label>
+          </div>
+        </form>
+
+        
+
+        <div class="button-row">
+          <button id="saveBtn" class="save-btn" type="button">Save</button>
+          <button id="genBtn" type="button">Generate</button>
+          <button id="emergencyStopBtn" class="danger" type="button">Emergency Stop</button>
+          <button id="startOpenBtn" class="primary" type="button" disabled>Start Task</button>
+        </div>
+
+        <div id="statusBar" class="status-bar hidden">
+          <span id="statusText">Ready</span>
+          <span id="progressText">0/0 tabs</span>
+        </div>
+
+        <div id="results" class="results hidden"> 
+          <ul id="topicList" class="list"></ul>
+        </div>
+
+        <p class="hint">
+          risunCode - Bing Auto Reward
+        </p>
+      </section>
+    </main>
+    <script type="module" src="./src/popup/popup.js"></script>
+  </body>
+</html>
