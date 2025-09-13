@@ -3,7 +3,7 @@ Automate your bing rewards
 
 ## Screenshoots
 ### Get your search id 
-ExampleID: `TSASDS`
+- ExampleID: `TSASDS`
 <img width="505" height="99" alt="image" src="https://github.com/user-attachments/assets/7aa1b018-f257-4a07-a07f-400c6bba296e" />
 
 ---
