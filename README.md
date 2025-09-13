@@ -8,4 +8,8 @@ Automate your bing rewards
 
 ---
 
+### USAGE
+- Input your SearchID and tap save button
+- Tap Generate and hit Start Task!
+- To stop it, wait till task complete, or just hit emergency stop button!
 <img width="493" height="762" alt="image" src="https://github.com/user-attachments/assets/31ff259b-e1fe-4cc0-980e-5fb2efc8a889" />
