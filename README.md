@@ -1,2 +1,2 @@
-# Bing-auto-search-desktop
+# Bing-Automate 
 Automate your bing rewards 
