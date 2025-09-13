@@ -7,6 +7,11 @@ Automate your bing rewards
 <img width="505" height="99" alt="image" src="https://github.com/user-attachments/assets/7aa1b018-f257-4a07-a07f-400c6bba296e" />
 
 ---
+## 🚀 Installation
+1. Clone/download the repository or get it from the releases.
+2. Open `chrome://extensions` and enable **Developer mode**.
+3. Click `Load unpacked` → select the repository folder.
+4. Pin the extension icon if needed.
 
 ### USAGE
 - Input your SearchID and tap save button
